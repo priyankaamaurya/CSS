@@ -1,0 +1,71 @@
+.container{
+    height: 600px;
+    width: 600px;
+    border: 5px solid red;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.hero{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(71, 235, 180);
+}
+
+.box3{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(6, 199, 135);
+    display: flex;
+}
+
+.banner{
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+}
+
+.header{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(235, 13, 13);
+}
+
+.menu{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(154, 228, 241);
+}
+
+.main{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(170, 238, 62);
+}
+
+.empty, .m1{
+    height: 100%;
+    width: 25%;
+    background-color: beige;
+}
+
+.image{
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
+
+.extra{
+     height: 50%;
+    width: 100%;
+    background-color: rgb(100, 31, 226);
+}

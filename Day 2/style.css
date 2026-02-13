@@ -1,0 +1,81 @@
+/* to link external file we need to import external file whatever we create */
+/* @import url("./home.css");
+@import url("./about.css");
+@import url("./contact.css"); */
+
+/* pseudo class selector*/
+
+/* button:hover{
+    background-color:red;
+    color: white;
+    outline: none;
+} */
+
+/* button:active{
+    background-color:purple;
+    color: white;
+    outline:none;
+    border-radius: 10px;
+} */
+
+/* input:focus{
+    color:red;
+} */
+
+/* p:first-child{
+    color:red;
+} */
+
+/* li:last-child{
+    color:blue;
+} */
+
+/* li:nth-child(4){
+    color:green;
+} */
+
+/* li:nth-child(odd){
+    color:yellow;
+} */
+
+/* li:nth-child(even){
+    color:#5b87d8;
+} */
+
+/* p::first-line{
+    color:rgb(135, 71, 196);
+} */
+
+/* p::first-letter{
+    color:rgb(65, 3, 23);
+} */
+
+/* p::selection{
+    background-color:yellow;
+    color:white;
+} */
+
+/* h1::selection{
+    background-color:yellow;
+    color:white;
+} */
+
+/* p::before{
+    content: "😊";
+} */
+
+/* p::after{
+    content: "😊";
+} */
+
+/* input[type="text"]{
+    color: white;
+    outline:none;
+    background-color:purple;
+} */
+
+/* input[required]{
+    background-color:rgb(83, 206, 99);
+    border:none;
+    border-radius: 10px;
+} */

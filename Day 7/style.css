@@ -1,0 +1,30 @@
+.container{
+    height: 800px;
+    width: 1000px;
+    border: 5px solid red;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+}
+
+.box{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+}
+
+#flexItem-1{
+    order: 1;
+    flex-shrink: 2;
+}
+
+#flexItem-3{
+    order: 5;
+}
+
+#flexItem-5{
+    order: 3;
+}

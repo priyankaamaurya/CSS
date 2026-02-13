@@ -1,0 +1,31 @@
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: grey;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-columns: 25% 75%;
+}
+
+.header{
+    background-color: rgb(211, 140, 47);
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+} 
+
+.sidebar{
+    background-color: aquamarine;
+}
+
+.main{
+    background-color: blanchedalmond;
+}
+
+.footer{
+    background-color: rgb(207, 108, 166);
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}

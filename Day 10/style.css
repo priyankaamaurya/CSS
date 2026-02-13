@@ -1,0 +1,139 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid;
+    position: absolute;
+
+    animation-name: boxMoving;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+} */
+
+/* @keyframes boxMoving {
+    0%{
+        top: 20px;
+        left: 20px;
+    }
+
+    25%{
+        top: 20px;
+        left: 1400px;
+    }
+
+    50%{
+        left: 1400px;
+        top: 600px;
+    }
+
+    75%{
+        top: 600px;
+        left: 10px;
+    }
+
+    100%{
+        top: 20px;
+        left: 20px;
+    }
+} */
+
+
+/* @keyframes boxMoving{
+from{
+    top: 10px;
+    left: 20px;
+}
+to{
+    top: 10px;
+    left: 1200px;
+}
+} */
+
+/* h1{
+    position: absolute;
+    animation-name: content;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes content {
+from{
+    top: 10px;
+    right: 20px;
+}
+to{
+    top: 10px;
+    right: 1200px;
+}
+} */
+
+/*  *not done /
+/* .box{
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid;
+    
+    
+    position: absolute;
+    animation-name: content;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes content {
+from{
+    top: 10px;
+    right: 20px;
+}
+to{
+    top: 10px;
+    right: 1200px;
+}
+} */
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 80px;
+    width: 600px;
+    border: 1px solid white;
+    color: white;
+    overflow: hidden;
+}
+
+h1{
+    position: relative;
+    animation-name: marque;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes marque{
+    from{
+        top: 10px;
+        left: 20px;
+    }
+    to{
+        top: 10px;
+        left: 1200px;
+    }
+}

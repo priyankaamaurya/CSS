@@ -1,0 +1,16 @@
+div{
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box1{
+    height: 500px;
+    width: 500px;
+}
+
+.box1 div{
+    height:70%;
+    width: 70%;
+}

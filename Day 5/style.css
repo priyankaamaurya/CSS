@@ -1,0 +1,127 @@
+/* div{
+    height: 300px;
+    width: 300px;
+    color: green;
+    border: 5px solid black;
+
+    background-color: aqua;
+    background-image: url("./PM.jpeg");
+
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat; */
+
+    /* background-position: left;
+    background-position: right;
+    background-position: center;
+    background-position: top right;
+    background-position: bottom right;
+    background-position: bottom left;
+    background-position: bottom center; */
+
+    /* background-size: contain;
+    background-size: cover; */
+
+/* } */
+
+
+/* //?background */
+   /* //!background-size: contain ==> */
+    /* Scales the background image so that the entire image is visible inside the container, 
+    without cropping, while maintaining its aspect ratio. */ 
+
+    /* //!background-size: cover ==> */
+    /* Scales the background image to completely cover the container, even if some parts of the
+    image get cropped while maintaining its aspect ratio. */ 
+
+/* div{
+    display:inline;
+    /* it adds the inline property. Doesnot change height and width. cover only that part where text is there. */
+    /* border: 2px solid;
+    height: 300px;
+    width: 300px; */
+/* }  */
+
+/* //?display */
+/* //!display: block- */
+/* 1. block elements start on a new line and take the full available width of their parent.
+   2. you can apply width, height, margin, and padding to them. */
+
+/* //!display: inline- */
+/* 1. Inline elements stays in the same line and take only the space required by their content.
+   2. Width and height propertirs do not work on inline elements */
+
+/* //!display: inline-block */
+/* Inline block elements stays in the same line like inline elements but they also allow width and height like block elements.  */
+
+/* span{
+    display: block;
+    /* it adds the block property. change height and width. cover viewport */
+    /* border: 2px solid;
+    height: 200px;
+    width: 200px;
+}  */ 
+
+/* img{
+    border: 2px solid;
+    height: 500px;
+    width: 500px; 
+} */
+
+/* //?position */
+/* position in css allows us to moves the element in all the directions top left right bottom. */
+
+/* //! 1. position: static */
+/* Static is the default position of every HTML element. */
+/* position: static means the element follows the normal document flow and top, left, right, bottom do not work. */
+
+/* //! 2. position: relative */
+/* Relative means the element moves from its own original position. */
+/* position: relative positions an element relative to itself, and it still keeps its original space in the layout. */
+
+/* //! 3. position: absolute */
+/* Absolute means the element moves relative to its nearest positioned parent. */
+/* position: absolute removes the element from the normal flow and positions it relative to the nearest ancestor with position relative/ absolute/ fixe, otherwise relative to the body.  */
+
+/* //! 4. position: fixed */
+/* Fixed means the element stays fixed on the screen, even when you scroll. */
+/* position: fixed positions an element relative to the viewport, and it does not move on scrolling. */
+
+/* //! 5. position: sticky */
+/* position: sticky, toggles between relative and fixed based on scroll position and works its parent container. */
+
+
+/* .box2{
+    position: relative;
+    border: 10px;
+} */
+
+/* span{
+    position: absolute;
+    display: block;
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+} */
+
+/* .a2{
+    
+    color: black;
+   
+} */
+
+.a1{
+    height:25px;
+    background-color: black;
+    position: sticky;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img.jpeg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+ 

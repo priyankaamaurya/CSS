@@ -1,0 +1,35 @@
+/* descendent selector */
+/* .abc p{
+    color:red;
+} */
+
+
+/* child selector */
+/* .abc>p{
+    color:red;
+} */
+
+/* adjacent sibling selector */
+/* .head+p{
+    color:blue;
+} */
+/* general sibling selector */
+/* .head~p{
+    color:blue;
+}   */
+
+/* #abc>div{
+    color:red;
+}
+
+.xyz>h1{
+    color:orange;
+} */
+
+div p{
+    color:chocolate;
+}
+
+div h1{
+    color:rgb(210, 30, 135);
+}

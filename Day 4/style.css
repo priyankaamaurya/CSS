@@ -1,0 +1,68 @@
+/* div{
+    border: 1px solid;
+    color: rgb(9, 150, 231);
+} */
+
+/* //?text properties */
+
+/* h1{ */
+
+    /* color: rgb(55, 0, 255);
+    text-align: center;
+    text-align: right;
+    text-align: left; */
+
+    /* text-decoration: underline;
+    text-decoration: underline dashed;
+    text-decoration: underline dotted;
+    text-decoration: underline double;
+    text-decoration: underline wavy;
+    text-decoration: overline;
+    text-decoration: none; */
+
+    /* letter-spacing: 1px ; */
+    /* word-spacing: 100px ;
+    line-height: 10px; */
+
+    /* text-shadow: 2px 2px 5px red, 3px 2px 8px yellow ; */
+
+/* //?font properties */
+
+/* font-size: 100px; */
+/* font-weight: 200; */
+
+/* font-style: italic;   */
+ /* (changes property)  */
+
+/* font-style: oblique;   */
+/* (slightly move) */
+
+/* font-family: cursive;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: monospace; */
+
+/* } */
+
+h2{
+    text-shadow: 2px 3px 10px rgb(12, 158, 243);
+    font-weight: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    text-shadow: 4px 6px 10px crimson;
+}
+
+.abc{
+    color: chartreuse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-shadow: 4px 6px 10px rgb(8, 211, 116);
+}
+
+.xyz{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}

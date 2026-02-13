@@ -1,0 +1,42 @@
+.container{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.header{
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+
+}
+.main{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(243, 248, 246);
+    display: flex;
+    gap: 10px;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(1, 34, 1);
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(235, 109, 6);
+}
+
+.maincontent{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(216, 161, 9);
+}

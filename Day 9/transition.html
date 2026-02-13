@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: yellow;
+
+            /* transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: ease-in; */
+            /* linear, ease-in, ease-out, ease-in-out */
+            /* transition-delay: 1s; */
+
+            /* shorthand tranisition property */
+            /*  transition: transition-property transition-duration transition-timing-function transition-delay */
+            transition: all 5s ease-in 1s;
+        }
+
+        .box:hover{
+            height: 600px;
+            width: 600px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
