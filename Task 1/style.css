@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 500px;
+    width: 700px;   
+    border: 2px black solid; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px black solid;    
+}
+
+.a{
+    background-color: red;
+}
+
+.b{
+    background-color: blue;
+}
+
+
+.c{
+    background-color: green;
+}
+
+
